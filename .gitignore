@@ -1,0 +1,15 @@
+.DS_Store
+.openclaw/
+gsheets-env/
+mission-control/
+pylibs/
+state/
+.env
+*.png
+anggaindriya-*.json
+bugsnag_*.json
+greatday_*.*
+*youtube*.*
+**/*.key
+**/*.pem
+**/secrets*
