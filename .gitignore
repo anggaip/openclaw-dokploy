@@ -3,13 +3,14 @@
 gsheets-env/
 mission-control/
 pylibs/
+venv/
 state/
 .env
 *.png
 anggaindriya-*.json
 bugsnag_*.json
 greatday_*.*
-*youtube*.*
+*youtube*.json
 **/*.key
 **/*.pem
 **/secrets*
