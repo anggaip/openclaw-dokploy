@@ -98,6 +98,14 @@ def upload_to_reels(file_path, file_name=None):
     return upload_to_drive(file_path, REELS_FOLDER_ID, file_name)
 
 
+def upload_to_carousel(file_path, file_name=None):
+    """
+    Shortcut untuk upload langsung ke folder Carousel.
+    """
+    CAROUSEL_FOLDER_ID = "1vgQgNCkDIEy0QGBHDX680Y6p9MMA8HyZ"
+    return upload_to_drive(file_path, CAROUSEL_FOLDER_ID, file_name)
+
+
 if __name__ == "__main__":
     # Contoh penggunaan
     print("Google Drive Upload Utility")
