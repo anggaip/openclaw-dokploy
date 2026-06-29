@@ -43,6 +43,18 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - **Cron Delivery Channel:** 1501174016130551828
 - **Default DM Channel:** 834249390977187840 (Angga)
 
+## Google Drive - Folder IDs
+
+**Cozy Dev Structure (untuk hasil generate AI):**
+
+- **Cozy Dev** → `1D2W3QP0zbgltZ61HA8kQFSWJtGuFWh0W`
+- **AI Generated** → `1-bGUILZ7G841NUsF0N3x6aAK9tAwIln7`
+- **Instagram** → `1uceQKeNNV-RwlIHmkKa0zs_Urrk3mfad`
+- **2026** → `1F9bsnWssWkCawcVRyMCJmKwlDZApcUez`
+- **06-June** → `1eieNQbhlk7Sl5yHi1EgvHbc89hTOqxys`
+  - **Reels** → `19pKlyB5LngsmrJo8p0O7sfBdRzT-NnoF`
+  - **Carousel** → `1vgQgNCkDIEy0QGBHDX680Y6p9MMA8HyZ`
+
 ## Related
 
 - [Agent workspace](/concepts/agent-workspace)

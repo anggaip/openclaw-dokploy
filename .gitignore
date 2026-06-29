@@ -14,3 +14,4 @@ greatday_*.*
 **/*.key
 **/*.pem
 **/secrets*
+**_tokens.json
