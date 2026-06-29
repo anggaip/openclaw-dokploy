@@ -2,7 +2,7 @@
 
 _This file is updated after each significant session to maintain continuity across restarts._
 
-## Last Updated: 2026-06-29
+## Last Updated: 2026-06-29 (Drive OAuth procedure added)
 
 ---
 
@@ -55,6 +55,16 @@ See `/data/workspace/DOMAIN_STATUS.md` for detailed breakdown.
 **YouTube Re-auth Procedure (Permanent Rule):**
 - Jika ada request re-authenticate YouTube → **wajib** pakai file `youtube_oauth_setup.py`
 - Untuk menukar code yang didapat → jalankan `youtube_oauth_exchange_code.py`
+
+**Google Drive Re-auth Procedure (Permanent Rule):**
+- Jika ada request re-authenticate Google Drive → **wajib** pakai file `drive_oauth_setup.py` (untuk generate Authorization URL)
+- Untuk menukar code yang didapat → jalankan `drive_oauth_exchange_code.py <code>`
+
+**Cara menggunakan Google Drive OAuth scripts:**
+1. Jalankan: `/data/workspace/venv/bin/python drive_oauth_setup.py`
+2. Buka URL yang muncul di browser
+3. Authorize → copy code yang didapat
+4. Jalankan: `/data/workspace/venv/bin/python drive_oauth_exchange_code.py <code>`
 | Bugsnag | ✅ Working | 6 projects, 3642 active errors |
 | GreatDay HR | ⚠️ Partial | Browser automation blocked (missing libs) |
 | OpenAI API | ❌ Not connected | - |
