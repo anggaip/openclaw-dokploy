@@ -1,13 +1,16 @@
-import os, json, urllib.request, urllib.parse
+import os
+import json
+import urllib.request
+import urllib.parse
 from datetime import datetime
 
-def load_env(path):
-    if os.path.exists(path):
-        with open(path) as f:\n            for line in f:\n                line = line.strip()\n                if line and not line.startswith('#') and '=' in line:
-                    key, _, value = line.partition('=')
-                    os.environ[key.strip()] = value.strip().strip('"').strip("'")
-
-load_env('/data/workspace/.env')
+# Load .env
+with open('/data/workspace/.env') as f:
+    for line in f:
+        line = line.strip()
+        if line and not line.startswith('#') and '=' in line:
+            key, _, value = line.partition('=')
+            os.environ[key.strip()] = value.strip().strip('"').strip("'")
 
 CLIENT_ID = os.getenv('YOUTUBE_CLIENT_ID')
 CLIENT_SECRET = os.getenv('YOUTUBE_CLIENT_SECRET')
@@ -16,7 +19,7 @@ if not CLIENT_ID or not CLIENT_SECRET:
     print("❌ ERROR: YOUTUBE_CLIENT_ID or YOUTUBE_CLIENT_SECRET not found in .env")
     exit(1)
 
-code = "4/0AdkVLPymaZzFoWFxErF7TBHwmCbSe_2Rxme1D-nQh5ES_OLpUPVLmxyDvy4c54grjZ8zQQ"
+code = "4/0AdkVLPxTv5BZ0wUQqZBMfxFaRZeLhu71r-URQzlNfxaPcqpODo4g5wtOJqqRLgoEcq_tZg"
 
 data = {
     "code": code,

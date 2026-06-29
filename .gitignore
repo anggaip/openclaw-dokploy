@@ -10,7 +10,7 @@ state/
 anggaindriya-*.json
 bugsnag_*.json
 greatday_*.*
-*youtube*.json
+*youtube*.json**
 **/*.key
 **/*.pem
 **/secrets*
