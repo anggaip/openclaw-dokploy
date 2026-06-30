@@ -141,6 +141,12 @@ See `/data/workspace/DOMAIN_STATUS.md` for detailed breakdown.
 
 ## 🔄 Update Log
 
+### 2026-06-30
+- **YouTube Sponsorship Rate Card** dibuat dan disimpan di:
+  `memory/youtube-sponsorship-rate-card.md`
+  - Tier 2 ($900–1,100) direkomendasikan sebagai sweet spot saat ini.
+  - Rate dibuat konservatif karena performa video masih fluktuatif.
+
 ### 2026-05-28
 - **YouTube OAuth Token Refresh:** Token expired + invalid (401 error). Successfully regenerated using refresh_token flow. YouTube API operational again. Channel: Cozy Dev Labs, 13,500 subscribers.
 
