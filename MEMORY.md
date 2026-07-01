@@ -10,7 +10,7 @@ _This file is updated after each significant session to maintain continuity acro
 
 - **Nama:** Angga Indriya Pratama
 - **Panggilan:** Bos / Kakak (NOT "Angga" - it's rude)
-- **Role:** YouTube creator AI Indonesia (12.7K subscribers), React Native dev
+- **Role:** YouTube creator AI Indonesia (14.9K subscribers), React Native dev
 - **Communication:** Discord DM for daily instructions
 - **Timezone:** WIB (UTC+7)
 
@@ -90,18 +90,6 @@ See `/data/workspace/DOMAIN_STATUS.md` for detailed breakdown.
 
 ---
 
-## 📊 YouTube Channel Stats (Cozy Dev Labs)
-
-- **Total videos:** 255
-- **Avg views:** ~5,200
-- **Median views:** 1,055
-- **Top video:** 184,553 views ("Cozy Dev")
-- **Subscribers:** 13,500
-- **Videos with <500 views:** 54 (high volume, low performance)
-- **Latest upload:** "5 Tools AI Video GRATIS yang Masih Work di 2026" (May 8, 2026) - 19min, only 41 views
-
----
-
 ## 🤖 AI Video Tools Status (May 2026)
 
 | Tool | Status | Notes |
@@ -130,6 +118,11 @@ See `/data/workspace/DOMAIN_STATUS.md` for detailed breakdown.
 - Bos is builder, efficiency-focused, Indonesian market-aware
 - Keep responses direct and actionable
 - If unsure, ask before acting
+
+### YouTube Channel Data Access Rule
+- Ketika user meminta data terbaru channel YouTube (subscriber count, views, analytics, dll), **wajib** menggunakan script:
+  `/data/workspace/test_youtube_token.py`
+- Script ini menggunakan `youtube_tokens.json` untuk mengambil data langsung via YouTube API.
 
 ---
 
