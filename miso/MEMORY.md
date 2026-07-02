@@ -14,5 +14,14 @@ Catatan: Jangan menyimpan nilai rahasia secara langsung di file ini. Selalu refe
 - Virtual Environment utama: `/data/workspace/venv/bin/python`
 - Selalu gunakan venv ini untuk menjalankan script Python yang membutuhkan library Google/YouTube
 
+## YouTube Channel Data
+- Saat diminta data channel YouTube terbaru (subscriber, video, performa, dll), **selalu gunakan script**:
+  `/data/workspace/test_youtube_token.py`
+- Jangan buat script baru kecuali diminta explicitly.
+
+## Development Rules
+- Sebelum membuat script atau file baru, **harus konfirmasi dulu**.
+- Jangan langsung membuat file/script tanpa sepengetahuan Bos.
+
 ---
-Dibuat: 2026-06-23
+Dibuat: 2026-06-23 | Update: 2026-07-02
