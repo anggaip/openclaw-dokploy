@@ -124,6 +124,13 @@ See `/data/workspace/DOMAIN_STATUS.md` for detailed breakdown.
   `/data/workspace/test_youtube_token.py`
 - Script ini menggunakan `youtube_tokens.json` untuk mengambil data langsung via YouTube API.
 
+### YouTube Shorts Service Rates (per 3 video)
+| Package | Harga (USD) | Deliverables | Catatan |
+|---------|-------------|--------------|---------|
+| Basic | $55 – $70 | 3 Shorts (15–30 detik) | Entry level |
+| Standard | $85 – $110 | 3 Shorts (30–60 detik) + captions | Paling direkomendasikan |
+| Premium | $130 – $160 | 3 Shorts + script + 2 revisi | Termasuk pinned comment |
+
 ---
 
 ## 📚 External Documentation References
